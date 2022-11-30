@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: unset;
+}
+.text-second:hover{
+    color: #04AA6D;
+}
+
+.text-second{
+    color: #08753d;
+}
+.text-title{
+    color: #0095d9 !important;
+    font-size: 50px;
+}
+.bg-main{
+    background-color: #7bc142;
+}
+.text-logo1{
+    color: #66ff33;
+}
+.text-logo2{
+    color:#008000;
+}
+.opacity-80{
+    opacity: 0.8;
+}
+
+.navbar-collapse{
+    border:1px solid black !important;
+}
+.nav-item.active a{
+    color: yellow !important;
+}
+.form-label{
+    margin-bottom: 2px;
+    opacity: 0.6;
+}
+.form-control, .form-select{
+    border-radius: 0;
+    border:1px solid #666;
+}
+.form-control:focus ,.form-select:focus{
+    box-shadow: unset !important;
+}
+.form-select{
+    background-image: url('../img/select_icon.PNG');
+    background-size: 50px 120%;
+    background-position: right -5px center;
+}
+.custom-file-uploader {
+    position: relative;
+    border-color: black !important;
+    border-radius: unset !important;
+  }
+.custom-file-uploader input[type='file'] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: default;
+}
+
+.focus-item{
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.focus-icon{
+    font-size: 4vw;
+    font-weight: 700;
+    color: #7bc142;
+}
+.our_team{
+    width: 100%;
+    height: 30vw;
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #7bc142;
+    --bs-btn-border-color: #7bc142;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(96, 240, 40);
+    --bs-btn-hover-border-color: rgb(96, 240, 40);
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(96, 240, 40);
+    --bs-btn-active-border-color: rgb(96, 240, 40);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #7bc142;
+    --bs-btn-disabled-border-color: #7bc142;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-brand{
+        flex-grow: 1;
+    }
+    .text-logo{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    ul.navbar-nav{
+        display: block;
+    }
+    .nav-item{
+        padding: 3px 20px;
+    }
+    .description p{
+        width: 100% !important;
+    }
+    .main>div{
+        margin: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main>div>p{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    form{
+        width: 80% !important;
+    }
+    .contact_us{
+        padding-left: 10%!important;
+    }
+    footer>div{
+        width: 100% !important;
+    }
+}
